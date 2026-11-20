@@ -1,0 +1,15 @@
+{
+  "name": "isole-sospese-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Server del gioco Isole Sospese: ospita il gioco e le partite online",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ws": "8.18.0"
+  }
+}
